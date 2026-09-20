@@ -1,16 +1,47 @@
-## Hi there 👋
+# 你好，我叫 YEJILIZ 👋 *（也可以叫 椰叽荔枝 or 荔枝 ~ ）*
 
-<!--
-**UltraCenc/UltraCenc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+电子信息工程本科在读 （马上毕业了:c），现在在学 **嵌入式开发与物联网** 🌱
 
-Here are some ideas to get you started:
+我的经验大多来自竞赛团队项目和企业实习，还在慢慢积累的阶段，
+以后会陆续把自己写的东西整理上来。
+除了嵌入式，视觉、AI 工具、系统安全这些也都挺感兴趣，学得比较杂，慢慢收 🌱
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🔧 用过的技术 / Tech Stack
+
+- 💻 **编程语言**　C / C++ · Python
+- 🧩 **单片机**　STM32G4 / F1 · CubeMX · HAL · Keil
+- 📡 **通信协议**　UART · I2C · SPI · USART DMA · MQTT · Wi-Fi
+- ⚙️ **外设驱动**　ADC (DMA) · PWM · 定时器 · OLED · 舵机
+- 🔌 **硬件相关**　Altium PCB · 示波器 · 数字逻辑 · CMOS
+- 🐧 **开发环境**　Linux · Git
+
+---
+
+### 💻 我的项目
+
+**🛠️ STM32 外设驱动整理（进行中）**
+- 把项目里自己写过的 ADC / DMA / PWM / OLED 驱动抽出来，重新整理成可复用的模块
+- 代码还在整理，之后会放到这里
+
+*（后面还会陆续加，慢慢来～）*
+
+---
+
+### 🛠️ 参与过的项目
+
+**🐕 STM32G474 智慧狗窝系统** · *嵌入式竞赛，3 人团队*
+- 团队做了一套狗窝系统，7 路传感器 + 4 路执行器，通过 MQTT 上报 OneNET 云平台
+- 我负责底层驱动：ADC1 多通道采集、I2C OLED 显示、PWM 风扇调速、USART1 DMA 与 ESP01S 通信
+- 还处理了 ESP01S AT 固件不支持原生 MQTT 指令的问题，用 RAW MQTT 帧封装实现对接
+- 后续会把我负责的那部分代码整理好发上来
+
+*（完整工程是团队一起做的，我只放我写过的部分）*
+
+---
+
+### 📫 联系方式
+
+- 📮 **956264680@qq.com**
+- 🔗 **https://github.com/UltraCenc**
